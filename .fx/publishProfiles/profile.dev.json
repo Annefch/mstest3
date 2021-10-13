@@ -1,0 +1,35 @@
+{
+    "solution": {
+        "resourceNameSuffix": "84e4b8",
+        "resourceGroupName": "Anne1013316tab-dev-rg",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "subscriptionId": "1756abc0-3554-4341-8d6a-46674962ea19",
+        "subscriptionName": "Teams Cloud - Dev Test with TTL = 7 Days",
+        "location": "West US",
+        "teamsAppTenantId": "{{solution.teamsAppTenantId}}",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "2e7f8d1a-41f9-4744-8085-425fb8752d22"
+    },
+    "fx-resource-frontend-hosting": {
+        "storageName": "frontendstgwadw4rqurjkz6",
+        "storageResourceId": "/subscriptions/1756abc0-3554-4341-8d6a-46674962ea19/resourceGroups/Anne1013316tab-dev-rg/providers/Microsoft.Storage/storageAccounts/frontendstgwadw4rqurjkz6",
+        "endpoint": "https://frontendstgwadw4rqurjkz6.z22.web.core.windows.net",
+        "domain": "frontendstgwadw4rqurjkz6.z22.web.core.windows.net"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "b23508ec-7f01-4a08-9907-576753894448",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "14d28fe9-875d-4e0c-be87-8829314b6330",
+        "oauth2PermissionScopeId": "dafd2d9c-7f31-4e54-8536-cdc4ff938257",
+        "tenantId": "64b729bf-4b0b-4557-8a2f-7730615aa501",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/64b729bf-4b0b-4557-8a2f-7730615aa501",
+        "applicationIdUris": "api://frontendstgwadw4rqurjkz6.z22.web.core.windows.net/b23508ec-7f01-4a08-9907-576753894448"
+    },
+    "fx-resource-simple-auth": {
+        "endpoint": "https://anne101331dev337e83-simpleauth-webapp.azurewebsites.net",
+        "skuName": "B1"
+    }
+}
